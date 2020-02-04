@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const calculateTimeLeft = () => {
-    const difference = (new Date()) - (new Date("2020-02-01"));
+    const difference = (new Date("2020-02-28 17:30")) - (new Date());
     let timeLeft = {};
 
     if (difference > 0) {
