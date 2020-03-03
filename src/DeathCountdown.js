@@ -23,7 +23,7 @@ function DeathCountdown({ end, colleagueName }) {
         setTimeout(() => {
             setTimeLeft(calculateTimeLeft());
         }, 1000);
-    }, []);
+    });
 
     const timerComponents = [];
 
