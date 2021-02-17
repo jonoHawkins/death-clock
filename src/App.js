@@ -5,8 +5,8 @@ import DeathCountdown from './DeathCountdown';
 function App() {
   return (
     <DeathCountdown
-      colleagueName="Ash"
-      end="2020-05-15 17:30"
+      colleagueName="Ryan"
+      end="2021-03-18 17:30"
     />
   );
 }
