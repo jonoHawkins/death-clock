@@ -42,7 +42,7 @@ function DeathCountdown({ end, colleagueName }) {
     return (
         <div className="App">
             <header className="App-header">
-                <span className="App-logo">☠️</span>
+                <span className="App-logo" role="img">☠️</span>
                 <p>{timerComponents.length ? <>{colleagueName} you are dead to us in<br /> {timerComponents}</> : <span>{colleagueName} you're dead to us now. Good luck.</span>}</p>
             </header>
         </div>
